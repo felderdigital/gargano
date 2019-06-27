@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	{{ .Hugo.Generator }}{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:600,400|Poppins:600,400,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="{{ "/css/site.css" | relURL }}" type="text/css">
+	<link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
+	<link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
+	<link rel="canonical" href="{{ .Permalink }}">
+	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+</head>
+<body>
+<header id="header-mobile">
+	<nav id="nav-mobile">
+		<!--<span class="title"><a href="/">Francesco<br/>Gargano</a></span>-->
+		<div class="menu-toggle">
+			<div class="hamburger"></div>
+		</div>
+		<ul class="open desktop">
+			<li class="current"><a href="#about">About</a></li>
+			<li><a href="#meet-the-dr">Meet The Dr.</a></li>
+			<li><a href="#learn-more">Request Consultation</a></li>
+			<li><a href="#image-gallery">Image Gallery</a></li>
+			<li><a href="#testimonials">Testimonials</a></li>
+			<li><a href="#appointment">Book Appointment</a></li>
+		</ul>
+	</nav>
+</header>
+<header id="header-desk">
+	<div class="container">
+		<div class="grid">
+			<div class="column">
+				<span class="title"><a href="/">Francesco<br/>Gargano</a></span>
+				<ul id="nav">
+					<li class="current"><a href="#about">About</a></li>
+					<li><a href="#meet-the-dr">Meet The Dr.</a></li>
+					<li><a href="#learn-more">Request Consultation</a></li>
+					<li><a href="#image-gallery">Image Gallery</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a class="button-nav" href="#appointment">Book Appointment</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>

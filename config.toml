@@ -1,0 +1,45 @@
+baseurl = ""
+# baseurl = "https://felderdigital.com/projects/gargano/"
+# canonifyURLs = true
+
+title = "Gargano Reconstructive"
+copyright = "&copy; 2019 Gargano Reconstructive"
+
+[params]
+  author = "Felder Digital"
+  description = ""
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+
+# Navigation Links.
+[[menu.main]]
+  name = "About"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Meet the Dr."
+  url = "#meet-the-dr"
+  weight = 2
+
+[[menu.main]]
+  name = "Request Consultation"
+  url = "#request-consultation"
+  weight = 3
+
+[[menu.main]]
+  name = "Image Gallery"
+  url = "#image-gallery"
+  weight = 4
+
+[[menu.main]]
+  name = "Testimonials"
+  url = "#request-consultation"
+  weight = 5
+
+[[menu.main]]
+  name = "Book an Appointment"
+  url = "#book-an-appointment"
+  weight = 6

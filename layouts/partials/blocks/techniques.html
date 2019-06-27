@@ -1,0 +1,29 @@
+<section id="techniques" class="anchor">
+	<div class="techniques">
+		<div class="container">
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.b_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.b_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.b_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				</div>
+				<div class="column">
+					<div class="border">
+						<img src="{{ $.Site.BaseURL }}/img/content/techniques-1.png" />
+						{{- with .Params.c_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					</div>
+					<div class="border">
+						<img src="{{ $.Site.BaseURL }}/img/content/techniques-2.png" />
+					</div>
+					<div class="border">
+						<img src="{{ $.Site.BaseURL }}/img/content/techniques-3.jpg" />
+						{{- with .Params.d_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,26 @@
+<section id="candidate" class="anchor">
+	<div class="candidate">
+		<div class="container">
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					<ul>
+						{{- with .Params.a_l1 -}}<li>{{ markdownify . }}</li>{{- end -}}
+						{{- with .Params.a_l2 -}}<li>{{ markdownify . }}</li>{{- end -}}
+						{{- with .Params.a_l3 -}}<li>{{ markdownify . }}</li>{{- end -}}
+						{{- with .Params.a_l4 -}}<li>{{ markdownify . }}</li>{{- end -}}
+						{{- with .Params.a_l5 -}}<li>{{ markdownify . }}</li>{{- end -}}
+						{{- with .Params.a_l6 -}}<li>{{ markdownify . }}</li>{{- end -}}
+					</ul>
+					{{- with .Params.a_3 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.b_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.b_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.c_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.c_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

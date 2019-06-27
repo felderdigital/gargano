@@ -1,0 +1,15 @@
+<section id="learn-more" class="anchor">
+	<div class="learn-more">
+		<div class="container">
+			{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+			<div class="grid">
+				<div class="column"></div>
+				<div class="column">
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				</div>
+				<div class="column"></div>
+			</div>
+		</div>
+	</div>
+</section>

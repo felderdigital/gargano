@@ -1,0 +1,16 @@
+<section id="testimonials" class="anchor">
+	<div class="testimonials">
+		<div class="container">
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				</div>
+				<div class="column">
+					{{- with .Params.b_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.b_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

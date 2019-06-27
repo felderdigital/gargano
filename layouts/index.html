@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<main class="home">
+{{- range .Params.blocks -}}
+	{{- if eq .template "about" -}}{{ partial "blocks/about" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "meet" -}}{{ partial "blocks/meet" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "techniques" -}}{{ partial "blocks/techniques" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "candidate" -}}{{ partial "blocks/candidate" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "learn-more" -}}{{ partial "blocks/learn-more" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "image-gallery" -}}{{ partial "blocks/image-gallery" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "testimonials" -}}{{ partial "blocks/testimonials" (dict "Params" .) }}{{- end -}}
+	{{- if eq .template "appointment" -}}{{ partial "blocks/appointment" (dict "Params" .) }}{{- end -}}
+{{- end -}}
+</main>
+{{ partial "footer.html" . }}

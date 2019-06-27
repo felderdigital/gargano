@@ -1,0 +1,17 @@
+<section id="meet-the-dr" class="anchor">
+	<div class="meet">
+		<div class="container-fluid">
+			<div class="grid">
+				<div class="column">
+					<img src="{{ $.Site.BaseURL }}/img/content/francesco-gargano.png" />
+				</div>
+				<div class="column">
+					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.a_button -}}<a class="button" href="#testimonials">{{ markdownify . }}</a>{{- end -}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
