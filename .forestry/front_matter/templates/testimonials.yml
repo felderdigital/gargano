@@ -1,0 +1,21 @@
+---
+label: Testimonials
+hide_body: true
+display_field: heading
+fields:
+- type: textarea
+  name: a_1
+  label: Paragraph 1
+  description:
+- type: textarea
+  name: a_2
+  label: Paragraph 2
+  description:
+- type: textarea
+  name: b_1
+  label: Paragraph 3
+  description:
+- type: textarea
+  name: b_2
+  label: Paragraph 4
+  description:

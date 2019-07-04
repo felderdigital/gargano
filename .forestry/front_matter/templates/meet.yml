@@ -1,0 +1,21 @@
+---
+label: Meet
+hide_body: true
+display_field: heading
+fields:
+- type: text
+  name: a_title
+  label: Title
+  description: 
+- type: textarea
+  name: a_1
+  label: Paragraph 1
+  description:
+- type: textarea
+  name: a_2
+  label: Paragraph 2
+  description:
+- type: text
+  name: a_button
+  label: Button
+  description:

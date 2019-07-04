@@ -1,0 +1,61 @@
+---
+label: Candidate
+hide_body: true
+display_field: heading
+fields:
+- type: text
+  name: a_title
+  label: Title
+  description: 
+- type: textarea
+  name: a_1
+  label: Paragraph 1
+  description:
+- type: textarea
+  name: a_2
+  label: Paragraph 2
+  description:
+- type: text
+  name: a_l1
+  label: List Item 1
+  description:
+- type: text
+  name: a_l2
+  label: List Item 2
+  description:
+- type: text
+  name: a_l3
+  label: List Item 3
+  description:
+- type: text
+  name: a_l4
+  label: List Item 4
+  description:
+- type: text
+  name: a_l5
+  label: List Item 5
+  description:
+- type: text
+  name: a_l6
+  label: List Item 6
+  description:
+- type: textarea
+  name: a_3
+  label: Paragraph 3
+  description:
+- type: text
+  name: b_title
+  label: Title
+  description: 
+- type: textarea
+  name: b_1
+  label: Paragraph 1
+  description:
+- type: text
+  name: c_title
+  label: Title
+  description: 
+- type: textarea
+  name: c_1
+  label: Paragraph 1
+  description:
