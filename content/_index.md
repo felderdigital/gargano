@@ -2,70 +2,64 @@
 title = "Home"
 type = "page"
 [[blocks]]
-template = "about"
-a_title = "Francesco Gargano<br/>MD, PHD, FACS"
-a_subtitle = "NY & NJ's Premier Plastic Surgeon"
 a_1 = "Dr. Gargano is a board certified plastic and reconstructive surgeon, who specializes in breast reduction surgery."
 a_2 = "After studying new breast reduction concepts during his PhD, Dr. Gargano pioneered a new technique, the Yin-Yang Breast Reduction."
 a_3 = "The Yin-Yang Breast Reduction achieves ideal breast proportion, minimal scarring and the most stable aesthetic results over time."
-
+a_subtitle = "NY & NJ's Premier Plastic Surgeon"
+a_title = "Francesco Gargano<br/>MD, PHD, FACS"
+template = "about"
 [[blocks]]
-template = "meet"
-a_title = "Meet Dr. Francesco Gargano"
 a_1 = "Dr. Gargano specializes in plastic surgery of the face, breasts and body using proven modern techniques. His approachable, lightheartered personality fosters positive, open communications with patients."
 a_2 = "He is a Fellow of the American College of Surgeons (FACS) and pioneer of the Yin-Yang Breast Reduction technique."
 a_button = "Learn More About Dr. Gargano"
-
+a_title = "Meet Dr. Francesco Gargano"
+template = "meet"
 [[blocks]]
-template = "techniques"
-a_title = "Why the Yin-Yang breast reduction technique is better than other techniques?"
 a_1 = "Dr. Gargano developed the Yin-Yang technique after discovering there was a real need for it in reconstructive surgery.  He set out to create a template for the ideal breast reduction technique that would yield a natural, proportional and  youthful contour of the breast. The Yin-Yang technique is backed by years of research and supported by multiple peer-reviewed journals. Dr. Gargano has successfully performed the technique on hundreds of patients."
 a_2 = "Conventional breast reduction techniques often widen the breast’s base, creating lower breast projection. Also, long-term results are often unpredictable.  Dr. Gargano’s groundbreaking Yin-Yang technique narrows the breast base, in turn allowing for more breast projection and a higher, more youthful breast."
-b_title = "Dr. Gargano’s Yin-Yang technique delivers immediate and long-lasting results."
+a_title = "Why the Yin-Yang breast reduction technique is better than other techniques?"
 b_1 = "The procedure gets its name from incisions that are made similar to the shape of the Chinese symbol.  Dr. Gargano first makes incisions around the nipples and along the breasts. He then removes excess breast tissue, raises two dermoglandular flaps and reshapes the anatomic breast, suturing the two flaps together. Dr. Gargano developed this technique with the modern-day woman in mind. It is unobtrusive and requires little to no downtime.  He performs this outpatient procedure using a general anesthetic, allowing patients to quickly resume their day-to-day activities."
 b_2 = "The Yin-Yang technique can also be used in a ‘mommy makeover’ to restore the breast and reverse the effects of childbearing. The technique is useful to lift up the breast and hold an implant to compensate for missing volume."
+b_title = "Dr. Gargano’s Yin-Yang technique delivers immediate and long-lasting results."
 c_1 = "Two flaps are inset with opposite spiral movements, the nipple is transposed to the new position, the LBIP flap is advanced and rotated towards the parasternal line and sutured to hold the lower pole position."
 d_1 = "In combined mastopexy and augmentation the implant is held in its anatomical position by the lower pole flap. This guarantees lower pole stability and prevents double bouble deformity."
-
+template = "techniques"
 [[blocks]]
-template = "candidate"
-a_title = "Am I a candidate for Yin-Yang Breast Reduction surgery?"
 a_1 = "While many women wish their breasts were larger, there’s a point where breast size can be a burden instead of an asset. The size and weight of overly large breasts create back and neck aches, shoulder pain, and uncomfortable rashes. It can be embarrassing when your breasts are your most noticeable feature. If your breasts are keeping you from feeling comfortable and confident, Dr. Francesco Gargano is a plastic surgeon who truly cares. He has extensive training and experience in breast reduction surgery to provide his patients beautiful results and a renewed quality of life."
 a_2 = "Breast reduction candidates are healthy women who are interested in one or more of the following improvements:"
+a_3 = "At your private consultation, Dr. Gargano will create a surgical plan that personalizes the procedure to your unique anatomy and cosmetic goals to provide the improvements that matter most to you."
 a_l1 = "Decreasing breast size and weight"
 a_l2 = "Reshaping the breasts and nipples"
 a_l3 = "Balancing body proportions"
 a_l4 = "Alleviating self-consciousness"
 a_l5 = "Fitting into a variety of clothing styles"
 a_l6 = "Participating comfortably in physical activities"
-a_3 = "At your private consultation, Dr. Gargano will create a surgical plan that personalizes the procedure to your unique anatomy and cosmetic goals to provide the improvements that matter most to you."
-b_title = "What is breast reduction recovery like?"
+a_title = "Am I a candidate for Yin-Yang Breast Reduction surgery?"
 b_1 = "Initially expect your breasts to be sore, swollen, and possibly bruised. You will need to wear a surgical support bra at all times (except for when showering) for approximately 3 to 4 weeks to minimize swelling and help your breasts heal in the desired shape. Most patients can return to non-strenuous jobs, school, and everyday activities within 1 to 2 weeks, gradually working up to strenuous exercise and high-impact activities after about a month.The resulting scars are usually thin and fade from pink to white over the following months to 1 year."
-c_title = "Are you ready to rejuvenate your breasts?"
+b_title = "What is breast reduction recovery like?"
 c_1 = "To find out how Dr. Gargano can help you have the beautiful breasts you want, request a consultation using our online form or call our office at (212) 448-2941 to schedule."
-
+c_title = "Are you ready to rejuvenate your breasts?"
+template = "candidate"
 [[blocks]]
-template = "learn-more"
-a_title = "Learn more about Dr. Gargano's innovative approach"
 a_1 = "Consultation"
 a_2 = "A complimentary cosmetic consultation for breast surgery will assist you in understanding your desired breast procedure, and assist Dr. Gargano in assessing your overall health and eligibility for breast reduction surgery."
 a_btn = "Book an Appointment"
-
+a_title = "Learn more about Dr. Gargano's innovative approach"
+template = "learn-more"
 [[blocks]]
-template = "image-gallery"
-a_title = "Yin-Yang Patient Results"
 a_1 = "Content Warning: This gallery contains images that are not suitable for children under the age of 18. If you are an adult and would like to view images of Yin-Yang patient results, click on the button below."
-
+a_title = "Yin-Yang Patient Results"
+template = "image-gallery"
 [[blocks]]
-template = "testimonials"
-a_1 = "Dr. Gargano received his medical degree from the Sapienza University of Rome in Italy, graduating magna cum laude. He continued his education at Sapienza University where he earned his PhD in Plastic Surgery, Human Anatomy and Dermatology, and completed his first residency in Plastic & Reconstructive Surgery."
+a_1 = "Dr. Gargano received his medical degree from Sapienza University of Rome in Italy, graduating magna cum laude. He continued his education at Sapienza University where he earned his PhD in Plastic Surgery, Human Anatomy and Dermatology, and completed his first residency in Plastic & Reconstructive Surgery."
 a_2 = "Over the course of his training and medical practice, Dr. Gargano has pioneered breakthrough treatment modalities. He pioneered the Yin-Yang Technique for breast reduction and the SUFA Technique for debilitating contracted burn scars. Dr. Gargano has also published numerous medical studies covering various facets of plastic and reconstructive surgery."
 b_1 = "He has extensively trained around the world and is committed to healing through individualized care. He is certified by the American Board of Plastic Surgery and the European Board of Plastic Reconstructive and Aesthetic Surgery. He is also a member of the American Society of Plastic Surgeons (ASPS)."
 b_2 = "Dr. Gargano travels multiple times a year with Operation Smile repairing facial deformities around the world. A devout man, Francesco decided to pursue medicine after an encounter with Mother Teresa of Calcutta."
-
+template = "testimonials"
 [[blocks]]
-template = "appointment"
-a_title = "Request Consultation"
 a_1 = "Want to call instead? Give us a call, we'll be happy to assist (212) 448-2941."
 a_2 = "Please do not submit sensitive medical information, we’ll get that when we talk to you."
+a_title = "Request Consultation"
+template = "appointment"
+
 +++
