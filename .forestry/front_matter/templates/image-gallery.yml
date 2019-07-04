@@ -10,4 +10,4 @@ fields:
 - type: textarea
   name: a_1
   label: Paragraph 1
-  description:
+  description: 

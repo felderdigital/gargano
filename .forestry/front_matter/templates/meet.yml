@@ -10,12 +10,12 @@ fields:
 - type: textarea
   name: a_1
   label: Paragraph 1
-  description:
+  description: 
 - type: textarea
   name: a_2
   label: Paragraph 2
-  description:
+  description: 
 - type: text
   name: a_button
   label: Button
-  description:
+  description: 

@@ -10,11 +10,11 @@ fields:
 - type: textarea
   name: a_1
   label: Paragraph 1
-  description:
+  description: 
 - type: textarea
   name: a_2
   label: Paragraph 2
-  description:
+  description: 
 - type: text
   name: b_title
   label: Title
@@ -22,16 +22,16 @@ fields:
 - type: textarea
   name: b_1
   label: Paragraph 1
-  description:
+  description: 
 - type: textarea
   name: b_2
   label: Paragraph 2
-  description:
+  description: 
 - type: textarea
   name: c_1
   label: Caption 1
-  description:
+  description: 
 - type: textarea
   name: d_1
   label: Caption 2
-  description:
+  description: 
