@@ -9,6 +9,15 @@ sections:
   label: Pages
   create: all
   match: "*"
+  templates:
+  - about
+  - learn-more
+  - image-gallery
+  - appointment
+  - meet
+  - candidate
+  - testimonials
+  - techniques
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
