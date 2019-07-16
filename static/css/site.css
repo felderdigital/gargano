@@ -316,7 +316,7 @@ a.button {
 # About
 ----------------------------------------------------*/
 .about {
-	background-image: linear-gradient(0deg, rgba(47,58,85,0.6), rgba(47,58,85,0.7)), url('https://cdn.b12.io/client_media/Ru7j7pul/0cf2cf10-5abd-11e9-99ad-0242ac110002-adult-beautiful-beauty-371126.jpg');
+	background-image: linear-gradient(0deg, rgba(47,58,85,0.6), rgba(47,58,85,0.7)), url('../img/background/about.jpg');
 	background-position: 0% 10%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -411,7 +411,7 @@ a.button {
 # Testimonials
 ----------------------------------------------------*/
 .testimonials {
-	background-image: linear-gradient(0deg, rgba(47,58,85,0.5), rgba(47,58,85,0.6)), url('https://cdn.b12.io/client_media/Ru7j7pul/79ab6252-5b71-11e9-9b99-0242ac110002-jpg-hero_image.jpeg');
+	background-image: linear-gradient(0deg, rgba(47,58,85,0.5), rgba(47,58,85,0.6)), url('../img/background/testimonials.jpeg');
 	background-size: cover;
 	background-position: 0% 50%;
 }

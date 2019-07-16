@@ -4,9 +4,9 @@
 			<div class="grid">
 				<div class="column">
 					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
-					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
-					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-					<p>[form goes here]</p>
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}{{- end -}}
+					{{- with .Params.a_2 -}}<br />{{ markdownify . }}</p>{{- end -}}
+					<!-- FORM GOES HERE -->
 				</div>
 			</div>
 		</div>
