@@ -36,7 +36,7 @@ img {
 	flex: 1;
 	padding: 1em;
 }
-@media (max-width: 40.0rem) {
+@media (max-width: 60.0rem) {
 	.container-fluid {
 		margin: 0;
 	}
@@ -72,16 +72,23 @@ h1, h2, h3 {
 	font-weight: 300;
   	letter-spacing: -.1rem;
 }
+h1 {
+	font-size: 6.5rem;
+	line-height: 119.35%;
+	margin: 0;
+}
+h3 {
+	font-size: 3.3rem;
+	font-weight: 400;
+	line-height: 1.25;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
 p {
 	font-size: 1.7rem;
 	line-height: 166.67%;
 	margin-top: 0;
 	margin-bottom: 20px;
-}
-h1 {
-	font-size: 6.5rem;
-	line-height: 119.35%;
-	margin: 0;
 }
 
 /*----------------------------------------------------
@@ -139,14 +146,6 @@ a:hover {
 /*----------------------------------------------------
 ## Nav Mobile
 ----------------------------------------------------*/
-#header-mobile {
-	/*
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	*/
-}
 #nav-mobile {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
@@ -344,11 +343,23 @@ a.button {
 .meet .column:nth-child(2) {
 	flex: 0 0 50%;
 }
-.meet p {
+.meet h3 {
+	font-size: 1.7rem;
+	margin: 1.667em 0;
+	text-transform: uppercase;
+}
+.meet-blue {
 	color: #56ccd2;
 	font-family: 'Poppins', sans-serif;
-	font-size: 3.0rem;
-	line-height: 1.3;
+	font-size: 3.3rem;
+	line-height: 1.4;
+}
+.accordion {
+	margin: 0 auto;
+}
+.accordion-content {
+	display: none;
+	padding-top: 1.5em;
 }
 
 /*----------------------------------------------------
@@ -357,10 +368,16 @@ a.button {
 .techniques {
 	background: #fafafa;
 }
+.techniques .border-top {
+	margin-top: 2em;
+}
 .techniques .border {
 	border: 1px solid #888;
 	padding: 1em;
 	margin-bottom: 2em;
+}
+.techniques .border p {
+	font-size: 1.3rem;
 }
 .techniques .column:nth-child(2) {
 	margin-top: 1.5em;
@@ -378,22 +395,33 @@ a.button {
 ----------------------------------------------------*/
 .learn-more {
 	background: #56ccd2;
-	padding: 50px 0;
 }
 .learn-more h3 {
-	font-size: 3.3rem;
 	text-align: center;
+	padding: 0 1em;
 }
 .learn-more .column:nth-child(2) {
 	flex: 0 0 50%;
 	background: #fff;
+	border-radius: 10px;
+	margin-top: 3em;
+	padding: 2em 2em 1em;
+}
+.learn-more .column:nth-child(2) .column:nth-child(2) {
+	flex: 0 0 70%;
+}
+.learn-more .consultation {
+	color: #56ccd2;
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+	margin-top: -3.3em;
 }
 
 /*----------------------------------------------------
 # Image Gallery
 ----------------------------------------------------*/
 .image-gallery h3 {
-	font-size: 3.3rem;
 	text-align: center;
 }
 .image-gallery .column:nth-child(2) {
@@ -402,6 +430,7 @@ a.button {
 .image-gallery p {
 	font-size: 1.7rem;
 	font-weight: 600;
+	margin-top: 1em;
 }
 .gallery-examples {
 	text-align: center;
@@ -431,34 +460,36 @@ a.button {
 /*----------------------------------------------------
 # Spacing
 ----------------------------------------------------*/
-@media (min-width: 80.0rem) {
-	h1 {
-		margin-top: 0.8em;
+@media (max-width: 60.0rem) {
+	h1 {margin-top: 1em;}
+	.meet h3 {margin-top: -1em;}
+	.techniques .border-top {margin-top: -3em;}
+	.learn-more {padding-top: 3em;}
+	.testimonials {padding-top: 3em;}
+	.testimonials .column:nth-child(1) {margin-bottom: -3em;}
+	footer {margin-bottom: -1em;}
+	.learn-more .column:nth-child(2) {
+		margin-top: 0;
+		margin-left: 10%;
+		width: 80%;
 	}
-	.about {
-		padding-bottom: 5em;
+	.learn-more .column:nth-child(2) img {
+		margin-left: 10%;
+		width: 50%;
 	}
-	.meet {
-		padding: 3em 0;
-	}
-	.meet .column:nth-child(1) {
-		margin-left: -1em;
-	}
-	.meet .column:nth-child(2) {
-		padding-left: 4em;
-	}
-	.image-gallery {
-		padding: 3em 0;
-	}
-	.testimonials {
-		padding: 10em 0 5em;
-	}
-	.testimonials .column:nth-child(1) {
-		padding-top: 7em;
-	}
-	.appointment {
-		margin: 3em 0;
-	}
+}
+@media (min-width: 60.0rem) {
+	h1 {margin-top: 0.8em;}
+	.about {padding-bottom: 5em;}
+	.meet {padding: 3em 0 5em;}
+	.meet .column:nth-child(1) {margin-left: -1em;}
+	.meet .column:nth-child(2) {padding-left: 4em;}
+	.candidate {padding: 1em 0 4em;}
+	.image-gallery {padding: 2em 0 5em;}
+	.testimonials {padding: 10em 0 5em;}
+	.testimonials .column:nth-child(1) {padding-top: 7em;}
+	.learn-more {padding: 2em 0 7em;}
+	.appointment {margin: 3em 0;}
 }
 
 /*----------------------------------------------------

@@ -5,8 +5,15 @@
 			<div class="grid">
 				<div class="column"></div>
 				<div class="column">
-					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
-					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					<div class="grid">
+						<div class="column">
+							<img src="{{ $.Site.BaseURL }}/img/content/notepad.png" />
+						</div>
+						<div class="column">
+							{{- with .Params.a_1 -}}<p class="consultation">{{ markdownify . }}</p>{{- end -}}
+							{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+						</div>
+					</div>
 				</div>
 				<div class="column"></div>
 			</div>

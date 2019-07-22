@@ -22,9 +22,9 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ "/js/nav.js" | relURL }}"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-<script>
+<script defer src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script defer src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
 	$(document).ready(function() {
 		$('#nav').onePageNav({
 			currentClass: 'current',
@@ -35,6 +35,11 @@
 	$('.menu-toggle').click(function() {
 	$('ul').toggleClass('opening');
 	$(this).toggleClass('open');
+	});
+</script>
+<script type="text/javascript">
+	$(".accordion").on("click", ".accordion-header", function() {
+		$(this).toggleClass("active").next().slideToggle();
 	});
 </script>
 </body>
