@@ -22,16 +22,16 @@ fields:
 - type: textarea
   name: b_1
   label: Accordion 1
-  description:
+  description: 
 - type: textarea
   name: b_2
   label: Accordion 2
-  description:
+  description: 
 - type: textarea
   name: b_3
   label: Accordion 3
-  description:
+  description: 
 - type: textarea
   name: b_4
   label: Accordion 4
-  description:
+  description: 
