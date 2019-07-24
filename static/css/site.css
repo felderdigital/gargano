@@ -95,6 +95,7 @@ p {
 # Links
 ----------------------------------------------------*/
 a {
+	color: #56ccd2;
 	text-decoration: none;
 }
 a:focus,
@@ -396,16 +397,12 @@ a.button {
 .learn-more {
 	background: #56ccd2;
 }
-.learn-more h3 {
-	text-align: center;
-	padding: 0 1em;
-}
 .learn-more .column:nth-child(2) {
 	flex: 0 0 50%;
 	background: #fff;
 	border-radius: 10px;
 	margin-top: 3em;
-	padding: 2em 2em 1em;
+	padding: 2em 2em 1.5em;
 }
 .learn-more .column:nth-child(2) .column:nth-child(2) {
 	flex: 0 0 70%;
@@ -421,9 +418,6 @@ a.button {
 /*----------------------------------------------------
 # Image Gallery
 ----------------------------------------------------*/
-.image-gallery h3 {
-	text-align: center;
-}
 .image-gallery .column:nth-child(2) {
 	flex: 0 0 50%;
 }
@@ -453,8 +447,13 @@ a.button {
 /*----------------------------------------------------
 # Appointment
 ----------------------------------------------------*/
-.appointment {
-	text-align: center;
+.appointment p {
+	max-width: 67.0rem;
+	margin: 1em auto;
+}
+#cr-form-FORe4dfbc76e3d341aa913e611180928929 {
+	max-width: 70.0rem;
+	margin: 3em auto 2em;
 }
 
 /*----------------------------------------------------
@@ -468,10 +467,14 @@ a.button {
 	.testimonials {padding-top: 3em;}
 	.testimonials .column:nth-child(1) {margin-bottom: -3em;}
 	footer {margin-bottom: -1em;}
+	.learn-more .column:nth-child(1),
+	.image-gallery .column:nth-child(1) {
+		margin-bottom: 0;
+	}
 	.learn-more .column:nth-child(2) {
 		margin-top: 0;
-		margin-left: 10%;
-		width: 80%;
+		margin-left: 5%;
+		width: 90%;
 	}
 	.learn-more .column:nth-child(2) img {
 		margin-left: 10%;
@@ -489,7 +492,12 @@ a.button {
 	.testimonials {padding: 10em 0 5em;}
 	.testimonials .column:nth-child(1) {padding-top: 7em;}
 	.learn-more {padding: 2em 0 7em;}
-	.appointment {margin: 3em 0;}
+	.appointment {margin: 2em 0 3em;}
+	.learn-more h3,
+	.image-gallery h3,
+	.appointment h3 {
+		text-align: center;
+	}
 }
 
 /*----------------------------------------------------

@@ -41,7 +41,7 @@ a_l6 = "Participating comfortably in physical activities"
 a_title = "Am I a candidate for Yin-Yang Breast Reduction surgery?"
 b_1 = "Initially expect your breasts to be sore, swollen, and possibly bruised. You will need to wear a surgical support bra at all times (except for when showering) for approximately 3 to 4 weeks to minimize swelling and help your breasts heal in the desired shape. Most patients can return to non-strenuous jobs, school, and everyday activities within 1 to 2 weeks, gradually working up to strenuous exercise and high-impact activities after about a month.The resulting scars are usually thin and fade from pink to white over the following months to 1 year."
 b_title = "What is breast reduction recovery like?"
-c_1 = "To find out how Dr. Gargano can help you have the beautiful breasts you want, request a consultation using our online form or call our office at (212) 448-2941 to schedule."
+c_1 = "To find out how Dr. Gargano can help you have the beautiful breasts you want, request a consultation using our <a href=\"/#appointment\">online form</a> or call our office at <a href=\"tel:212-448-2941\">(212) 448-2941</a> to schedule."
 c_title = "Are you ready to rejuvenate your breasts?"
 template = "candidate"
 [[blocks]]
@@ -61,9 +61,9 @@ b_1 = "He has extensively trained around the world and is committed to healing t
 b_2 = "Dr. Gargano travels multiple times a year with Operation Smile repairing facial deformities around the world. A devout man, Francesco decided to pursue medicine after an encounter with Mother Teresa of Calcutta."
 template = "testimonials"
 [[blocks]]
-a_1 = "Want to call instead? Give us a call, we'll be happy to assist (212) 448-2941."
+a_1 = "Want to call instead? Give us a call, we'll be happy to assist <a href=\"tel:212-448-2941\">(212) 448-2941</a>"
 a_2 = "Please do not submit sensitive medical information, we’ll get that when we talk to you."
-a_title = "Request Consultation"
+a_title = "Book Appointment"
 template = "appointment"
 
 +++
