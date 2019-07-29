@@ -63,7 +63,7 @@ template = "testimonials"
 [[blocks]]
 a_1 = "Want to call instead? Give us a call, we'll be happy to assist <a href=\"tel:212-448-2941\">(212) 448-2941</a>"
 a_2 = "Please do not submit sensitive medical information, we’ll get that when we talk to you."
-a_title = "Book Appointment"
+a_title = "Book Your Consultation"
 template = "appointment"
 
 +++
