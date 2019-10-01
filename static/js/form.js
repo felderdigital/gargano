@@ -1,4 +1,4 @@
-window.cfields = {"5":"message"};
+window.cfields = {"4":"phone_number","6":"best_time_of_day_to_call"};
 window._show_thank_you = function(id, message, trackcmp_url) {
   var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
   form.querySelector('._form-content').style.display = 'none';
@@ -67,7 +67,7 @@ window._load_script = function(url, callback) {
     }
   }
   var _removed = false;
-  var form_to_submit = document.getElementById('_form_1_');
+  var form_to_submit = document.getElementById('_form_7_');
   var allInputs = form_to_submit.querySelectorAll('input, select, textarea'), tooltips = [], submitted = false;
 
   var getUrlParam = function(name) {
@@ -296,8 +296,8 @@ window._load_script = function(url, callback) {
     e.preventDefault();
     if (validate_form()) {
       // use this trick to get the submit button & disable it using plain javascript
-      document.querySelector('#_form_1_submit').disabled = true;
-            var serialized = _form_serialize(document.getElementById('_form_1_'));
+      document.querySelector('#_form_7_submit').disabled = true;
+            var serialized = _form_serialize(document.getElementById('_form_7_'));
       var err = form_to_submit.querySelector('._form_error');
       err ? err.parentNode.removeChild(err) : false;
       _load_script('https://felderdigital.activehosted.com/proc.php?' + serialized + '&jsonp=true');
