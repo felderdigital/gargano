@@ -41,7 +41,7 @@ a_l6 = "Participating comfortably in physical activities"
 a_title = "Am I a candidate for Yin-Yang Breast Reduction surgery?"
 b_1 = "Initially expect your breasts to be sore, swollen, and possibly bruised. You will need to wear a surgical support bra at all times (except for when showering) for approximately 3 to 4 weeks to minimize swelling and help your breasts heal in the desired shape. Most patients can return to non-strenuous jobs, school, and everyday activities within 1 to 2 weeks, gradually working up to strenuous exercise and high-impact activities after about a month.The resulting scars are usually thin and fade from pink to white over the following months to 1 year."
 b_title = "What is breast reduction recovery like?"
-c_1 = "To find out how Dr. Gargano can help you have the beautiful breasts you want, request a consultation using our <a href=\"/#appointment\">online form</a> or call our office at <a href=\"tel:212-448-2941\">(212) 448-2941</a> to schedule."
+c_1 = "To find out how Dr. Gargano can help you have the beautiful breasts you want, request a consultation using our <a href=\"/#appointment\">online form</a> or call our office at <a href=\"tel:973-718-3360\">973-718-3360</a> to schedule."
 c_title = "Are you ready to rejuvenate your breasts?"
 template = "candidate"
 [[blocks]]
