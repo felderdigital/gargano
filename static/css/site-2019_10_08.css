@@ -316,6 +316,13 @@ a.button {
 	background: #2f3a55;
 	border: 0.1rem solid #2f3a55;
 }
+.button-secondary:hover,
+.button-secondary:focus {
+	background: #384565;
+	border: 0.1rem solid #384565;
+	color: #fff;
+	outline: 0;
+}
 .button-nav {
 	float: right;
 	margin-top: -3.5em;
